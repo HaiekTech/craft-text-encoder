@@ -2,7 +2,6 @@
     "name": "haiek/craft-text-encoder",
     "description": "Encode strings, email addresses or whatever you want...",
     "type": "craft-plugin",
-    "version": "1.1.0",
     "keywords": [
         "craft",
         "cms",
