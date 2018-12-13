@@ -1,6 +1,6 @@
 # Craft Text Encoder plugin for Craft CMS 3.x
 
-Encodes email addresses separately or inside text fields
+Encode strings, email addresses or whatever you want...
 
 ## Requirements
 
