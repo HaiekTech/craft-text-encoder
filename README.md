@@ -24,18 +24,18 @@ To install the plugin, follow these instructions.
 
 You can use the plugin either as a function or a filter:
 
-``twig
+```twig
 {# encode all emails found inside string #}
 {{ findEncodeMail(block.richTextEditor)|raw }}
 
 {# encode a single email address #}
 {{ encodeMail('hello@haiek.tech')|raw }}
-``
+```
 
-``twig
+```twig
 {# encode all emails found inside string #}
 {{ block.richTextEditor|findEncodeMail|raw }}
 
 {# encode a single email address #}
 {{ 'hello@haiek.tech'|encodeMail|raw }}
-``
+```
