@@ -1,0 +1,40 @@
+{
+    "name": "haiek/craft-text-encoder",
+    "description": "Encode strings, email addresses or whatever you want...",
+    "type": "craft-plugin",
+    "version": "0.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft text encoder"
+    ],
+    "support": {
+        "docs": "https://github.com/HaiekTech/craft-text-encoder/blob/master/README.md",
+        "issues": "https://github.com/HaiekTech/craft-text-encoder/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HAIEK",
+            "homepage": "https://github.com/HaiekTech"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "haiek\\crafttextencoder\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Craft Text Encoder",
+        "handle": "craft-text-encoder",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/HaiekTech/craft-text-encoder/master/CHANGELOG.md",
+        "class": "haiek\\crafttextencoder\\CraftTextEncoder"
+    }
+}
